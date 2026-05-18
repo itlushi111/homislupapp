@@ -50,21 +50,26 @@ export default function DashboardPage() {
       />
 
       <div className="p-6 space-y-6">
-        {/* Emergency Alert */}
-        {emergencyRequests.length > 0 && (
-          <div className="flex items-center gap-3 rounded-xl border border-red-200 bg-red-50 px-4 py-3">
-            <AlertCircle className="h-5 w-5 shrink-0 text-red-500" />
-            <div className="flex-1">
-              <p className="text-sm font-medium text-red-800">
-                {emergencyRequests.length} emergency maintenance request{emergencyRequests.length > 1 ? 's' : ''} require immediate attention
-              </p>
-              <p className="text-xs text-red-600">{emergencyRequests[0].title} — {emergencyRequests[0].unit}, {properties.find(p => p.id === emergencyRequests[0].propertyId)?.name}</p>
-            </div>
-            <Link href="/maintenance" className="shrink-0 text-xs font-medium text-red-700 hover:text-red-900 flex items-center gap-1">
-              View <ArrowRight className="h-3 w-3" />
-            </Link>
-          </div>
-        )}
+        <div className="rounded-2xl border border-green-200 bg-gradient-to-r from-green-50 to-emerald-50 p-5 shadow-sm">
+  <div className="flex items-center justify-between">
+    
+    <div>
+      <p className="text-lg font-semibold text-green-800">
+        Portfolio performance is growing successfully
+      </p>
+
+      <p className="mt-1 text-sm text-green-600">
+        Occupancy rates and monthly revenue increased this month
+      </p>
+    </div>
+
+    <div className="rounded-full bg-green-100 px-4 py-2 text-sm font-medium text-green-700">
+      +12% Growth
+    </div>
+
+  </div>
+</div>
+        
 
         {/* KPI Stats */}
         <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
