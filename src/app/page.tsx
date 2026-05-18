@@ -46,7 +46,7 @@ export default function DashboardPage() {
     <div className="min-h-screen bg-background">
       <PageHeader
         title="Dashboard"
-        description="Welcome back, Alex. Here's your portfolio at a glance."
+        description="Welcome to Homislup APP."
       />
 
       <div className="p-6 space-y-6">
