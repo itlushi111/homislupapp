@@ -89,8 +89,8 @@ export function Sidebar() {
               AM
             </div>
             <div className="min-w-0 flex-1">
-              <p className="truncate text-sm font-medium text-foreground">Alex Morgan</p>
-              <p className="truncate text-xs text-muted-foreground">Property Manager</p>
+              <p className="truncate text-sm font-medium text-foreground">Maria S</p>
+              <p className="truncate text-xs text-muted-foreground">HomislupAPP</p>
             </div>
             <Bell className="h-4 w-4 shrink-0 text-muted-foreground" />
           </div>

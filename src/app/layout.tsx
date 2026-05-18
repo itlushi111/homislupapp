@@ -3,7 +3,7 @@ import "./globals.css";
 import { Sidebar } from "@/components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "PropManager — Property Management",
+  title: "Homislup App",
   description: "Modern property management platform for landlords and managers",
 };
 
