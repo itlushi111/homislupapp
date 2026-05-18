@@ -40,11 +40,11 @@ export function Sidebar() {
         "flex items-center gap-3 border-b border-border px-4 py-5",
         collapsed && "justify-center px-2"
       )}>
-        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl">
+        <div className="flex h-14 w-14 shrink-0 items-center justify-center">
   <img
     src="/homislup-logo.png"
     alt="HOMISLUPAPP Logo"
-    className="h-10 w-10 object-contain"
+    className="h-full w-full object-contain"
   />
 </div>
         {!collapsed && (
