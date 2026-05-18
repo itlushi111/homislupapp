@@ -45,8 +45,8 @@ export function Sidebar() {
         </div>
         {!collapsed && (
           <div>
-            <p className="font-display text-base font-semibold leading-tight text-foreground">PropManager</p>
-            <p className="text-[11px] text-muted-foreground">Portfolio Overview</p>
+            <p className="font-display text-base font-semibold leading-tight text-foreground">HomislupApp</p>
+            <p className="text-[11px] text-muted-foreground">Property Managment Platform</p>
           </div>
         )}
       </div>
