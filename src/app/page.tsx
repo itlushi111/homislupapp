@@ -1,4 +1,4 @@
-import {
+import { defaultContent } from "@/data/defaultContent";
   Building2,
   Users,
   DollarSign,
@@ -46,7 +46,7 @@ export default function DashboardPage() {
     <div className="min-h-screen bg-background">
       <PageHeader
         title="Dashboard"
-        description="Welcome to Homislup APP."
+        description="{defaultContent.welcomeMessage}."
       />
 
       <div className="p-6 space-y-6">
@@ -55,16 +55,16 @@ export default function DashboardPage() {
     
     <div>
       <p className="text-lg font-semibold text-green-800">
-        Portfolio performance is growing successfully
+        {defaultContent.bannerTitle}
       </p>
 
       <p className="mt-1 text-sm text-green-600">
-        Occupancy rates and monthly revenue increased this month
+        {defaultContent.bannerDescription}
       </p>
     </div>
 
     <div className="rounded-full bg-green-100 px-4 py-2 text-sm font-medium text-green-700">
-      +12% Growth
+      {defaultContent.bannerBadge}
     </div>
 
   </div>
