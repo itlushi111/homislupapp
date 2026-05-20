@@ -1324,70 +1324,90 @@ body{
 .running{
   animation-play-state: running;
 }
+
 .last\:border-0:last-child{
   border-width: 0px;
 }
+
 .hover\:border-primary\/50:hover{
   border-color: hsl(var(--primary) / 0.5);
 }
+
 .hover\:bg-destructive\/90:hover{
   background-color: hsl(var(--destructive) / 0.9);
 }
+
 .hover\:bg-muted:hover{
   background-color: hsl(var(--muted));
 }
+
 .hover\:bg-muted\/30:hover{
   background-color: hsl(var(--muted) / 0.3);
 }
+
 .hover\:bg-muted\/50:hover{
   background-color: hsl(var(--muted) / 0.5);
 }
+
 .hover\:bg-primary\/5:hover{
   background-color: hsl(var(--primary) / 0.05);
 }
+
 .hover\:bg-primary\/90:hover{
   background-color: hsl(var(--primary) / 0.9);
 }
+
 .hover\:bg-secondary\/80:hover{
   background-color: hsl(var(--secondary) / 0.8);
 }
+
 .hover\:text-foreground:hover{
   color: hsl(var(--foreground));
 }
+
 .hover\:underline:hover{
   text-decoration-line: underline;
 }
+
 .hover\:shadow-md:hover{
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
 .focus\:ring-2:focus{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
+
 .focus\:ring-primary\/30:focus{
   --tw-ring-color: hsl(var(--primary) / 0.3);
 }
+
 .disabled\:pointer-events-none:disabled{
   pointer-events: none;
 }
+
 .disabled\:opacity-50:disabled{
   opacity: 0.5;
 }
+
 .group:hover .group-hover\:scale-105{
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
 .group:hover .group-hover\:text-primary{
   color: hsl(var(--primary));
 }
+
 @media (min-width: 640px){
 
   .sm\:col-span-2{
@@ -1398,6 +1418,7 @@ body{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
 @media (min-width: 1024px){
 
   .lg\:col-span-1{
@@ -1428,6 +1449,7 @@ body{
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
+
 @media (min-width: 1280px){
 
   .xl\:grid-cols-3{
